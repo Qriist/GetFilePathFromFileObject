@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
-GetFilePathFromFileObject(FileObject) {
+#Module GetFilePathFromFileObject
+Export Default GetFilePathFromFileObject(FileObject) {
     static GetFinalPathNameByHandleW := DllCall("Kernel32\GetProcAddress", "Ptr", DllCall("Kernel32\GetModuleHandle",
         "Str", "Kernel32", "Ptr"), "AStr", "GetFinalPathNameByHandleW", "Ptr")
 
