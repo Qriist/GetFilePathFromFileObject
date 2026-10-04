@@ -1,0 +1,11 @@
+﻿{
+	"author": "Qriist",
+	"description": "Object in, file path out.",
+	"main": "lib/GetFilePathFromFileObject.ahk",
+	"name": "GetFilePathFromFileObject",
+	"repository": {
+		"type": "github",
+		"url": "Qriist/GetFilePathFromFileObject"
+	},
+	"version": "v1.0.0"
+}
